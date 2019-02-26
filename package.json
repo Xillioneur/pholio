@@ -1,5 +1,5 @@
 {
-  "name": "reactor",
+  "name": "reactable",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -46,5 +46,10 @@
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.1",
     "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
   }
 }
