@@ -17,11 +17,12 @@ module.exports = {
     new webpack.ProgressPlugin(),
     new HtmlWebpackPlugin({
       template: paths.templatePath,
+      favicon: 'src/images/favicon.png',
       minify: {
         collapseInlineTagWhitespace: true,
-        collapseWhiteSpace: true,
+        collapseWhitespace: true,
         preserveLineBreaks: true,
-        minifyURLS: true,
+        minifyURLs: true,
         removeComments: true,
         removeAttributeQuotes: true,
       },

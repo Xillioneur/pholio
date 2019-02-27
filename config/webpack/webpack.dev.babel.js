@@ -1,4 +1,5 @@
 import webpack from 'webpack';
+import Jarvis from 'webpack-jarvis';
 
 import paths from './paths';
 import rules from './rules';
@@ -8,15 +9,12 @@ module.exports = {
   output: {
     filename: '[name].js',
     path: paths.outputPath,
-    chinkFilename: '[name].js',
-  },
-  module: {
-    rules,
+    chunkFilename: '[name].js',
   },
   performance: {
     hints: 'warning',
     maxAssetSize: 450000,
-    maxEntrypointSize: 850000,
+    maxEntrypointSize: 8500000,
     assetFilter: assetFilename => {
       return assetFilename.endsWith('.css') || assetFilename.endsWith('.js');
     },
@@ -25,12 +23,17 @@ module.exports = {
     splitChunks: {
       chunks: 'all',
     },
-    devServer: {
-      contentBase: paths.outputPath,
-      compress: true,
-      hot: true,
-      historyApiFallback: true,
-    },
-    plugins: [new webpack.HotModuleReplacementPlugin()],
   },
+  devServer: {
+    contentBase: paths.outputPath,
+    compress: true,
+    hot: true,
+    historyApiFallback: true,
+  },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+    new Jarvis({
+      port: 1337,
+    }),
+  ],
 };

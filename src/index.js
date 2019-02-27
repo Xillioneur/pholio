@@ -8,9 +8,11 @@ import App from './components/App';
 
 ReactDOM.render(
   <BrowserRouter>
-    <Provider store={store}>
-      <App />
-    </Provider>
+    <Fragment>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </Fragment>
   </BrowserRouter>,
   document.getElementById('root'),
 );
