@@ -1,4 +1,4 @@
-[![Reactable](https://dummyimage.com/200x200/000000/ff0000.png&text=Reactable)](https://reactable.unii.design)
+<a href="https://reactable.unii.design" target="_blank"><img src="https://github.com/Xillioneur/reactable/blob/master/src/images/logo.svg" height="200" alt="logo"></a>
 
 # Reactable
 
@@ -10,7 +10,7 @@
 
 TODO: Badges
 
-[![Reactable](https://dummyimage.com/600x300/ffd900/40008f.png&text=Reactable)]()
+[![Reactable](https://dummyimage.com/600x300/ff3333/550055.png&text=Reactable)]()
 
 ## Features
 
