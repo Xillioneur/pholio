@@ -13,7 +13,9 @@
     "test:cover": "yarn run test --coverage",
     "cypress:open": "cypress open",
     "precommit": "yarn run lint && yarn test",
-    "prepush": "yarn run lint"
+    "prepush": "yarn run lint",
+    "serve": "nodemon backend/server.js",
+    "dbon": "mongod"
   },
   "keywords": [
     "react",
@@ -88,6 +90,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
     "cross-env": "^5.2.0",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
