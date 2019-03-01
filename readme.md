@@ -31,12 +31,31 @@ A boilerplate with everything you'll need.
 
 ```sh
   git clone https://github.com/Xillioneur/reactable.git
-  cd reactable
-  cd frontend; npm install; npm run start; cd ..;
-  cd backend; npm install; npm run start;
+  cd reactable && npm install
+  cd frontend && npm install && cd ..
+  cd backend && npm install && cd ..
+  npm run dev
 ```
 
 ## Usage
+
+> Run frontend & backend concurrently in dev mode
+
+```shell
+npm run dev
+```
+
+> Run frontend
+
+```shell
+npm run frontend
+```
+
+> Run backend
+
+```shell
+cd backend
+```
 
 ### Backend
 
@@ -56,16 +75,28 @@ cd backend
 npm start
 ```
 
+> Start server in dev mode
+
+```shell
+npm run dev
+```
+
 ### Frontend
 
 ```shell
 cd frontend
 ```
 
-> Start the dev app
+> Start app 
 
 ```shell
 npm start
+```
+
+> Start with dev server
+
+```shell
+npm run dev
 ```
 
 > Create a production ready build in dist folder
