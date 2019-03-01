@@ -1,4 +1,4 @@
-<a href="https://reactable.unii.design" target="_blank"><img src="https://github.com/Xillioneur/reactable/blob/master/src/images/logo.svg" height="200" alt="logo"></a>
+<a href="https://reactable.unii.design" target="_blank"><img src="https://github.com/Xillioneur/reactable-frontend/blob/778576972212e793e3b0526a7b0d0914efd9ff15/client/src/images/logo.svg" height="200" alt="logo"></a>
 
 # Reactable
 
@@ -32,13 +32,37 @@ A boilerplate with everything you'll need.
 ```sh
   git clone https://github.com/Xillioneur/reactable.git
   cd reactable
-  npm install
-  npm start
+  cd frontend; npm install; npm run start; cd ..;
+  cd backend; npm install; npm run start;
 ```
 
 ## Usage
 
-> Start the dev server
+### Backend
+
+```shell
+cd backend
+```
+
+> Start mongod
+
+```shell
+ npm run dbon
+```
+
+> Start the server
+
+```shell
+npm start
+```
+
+### Frontend
+
+```shell
+cd frontend
+```
+
+> Start the dev app
 
 ```shell
 npm start
