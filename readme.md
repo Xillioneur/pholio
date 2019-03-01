@@ -18,8 +18,10 @@ A boilerplate with everything you'll need.
 
 - **Babel** — ES6 syntax, Airbnb & React/Recommended config
 - **CSS** — Styled Components
+- **Express** - Node backend
 - **Husky** — Prevent bad commits
-- **Lint** — ESlint
+- **Lint** — Eslint
+- **MongoDB** - Mongoose
 - **React** — 16.7.0-alpha.0 with Hooks
 - **Redux** — State Management
 - **Tests** — Jest, React Testing Library & Cypress
