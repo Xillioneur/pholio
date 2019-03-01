@@ -30,7 +30,7 @@ A boilerplate with everything you'll need.
 ## Quick Start
 
 ```sh
-  git clone https://github.com/Xillioneur/reactable.git
+  git clone --recurse-submodules -j8 https://github.com/Xillioneur/reactable.git
   cd reactable && npm install
   cd frontend && npm install && cd ..
   cd backend && npm install && cd ..
