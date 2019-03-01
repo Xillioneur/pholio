@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Xillioneur/reactable#readme",
   "dependencies": {
     "concurrently": "^4.1.0"
+  },
+  "devDependencies": {
+    "husky": "^1.3.1"
   }
 }
