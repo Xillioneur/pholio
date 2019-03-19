@@ -1,43 +1,28 @@
-<a href="https://reactable.unii.design" target="_blank"><img src="https://github.com/Xillioneur/reactable-frontend/blob/778576972212e793e3b0526a7b0d0914efd9ff15/client/src/images/logo.svg" height="200" alt="logo"></a>
+<a href="https://reactable.unii.design" target="_blank"><img src="#" height="200" alt="logo"></a>
 
-# Reactable
+# Pholio
 
-> Quick and simple react boilerplate
+> Personal React Portfolio
 
-> Setup basic web apps instantly
+> Full-stack developer, designer, indie
 
-> MERN, styled components, webpack
-
-TODO: Badges
-
-[![Reactable](https://dummyimage.com/600x300/ff3333/550055.png&text=Reactable)]()
+[![Pholio](https://dummyimage.com/600x300/000000/550055.png&text=Pholio)]()
 
 ## Features
 
-A boilerplate with everything you'll need.
-
-- **Babel** — ES6 syntax, Airbnb & React/Recommended config
-- **CSS** — Styled Components
-- **Express** - Node backend
-- **Husky** — Prevent bad commits
-- **Lint** — Eslint
-- **MongoDB** - Mongoose
-- **React** — 16.7.0-alpha.0 with Hooks
-- **Redux** — State Management
-- **Tests** — Jest, React Testing Library & Cypress
-- **Webpack** — Hot Reloading, Code Splitting, Optimized Build
+- Using [Reactable](https://github.com/Xillioneur/reactable)
 
 ---
 
 ## Quick Start
 
-```sh
+<!-- ```sh
   git clone --recurse-submodules -j8 https://github.com/Xillioneur/reactable.git
   cd reactable && npm install
   cd frontend && npm install && cd ..
   cd backend && npm install && cd ..
   npm run dev
-```
+``` -->
 
 ## Usage
 
@@ -89,7 +74,7 @@ npm run dev
 cd frontend
 ```
 
-> Start app 
+> Start app
 
 ```shell
 npm start
@@ -151,7 +136,7 @@ npm run cypress:open
 
 ### 1. Fork
 
-- **Fork and clone this repo using `https://github.com/Xillioneur/reactable.git`**
+- **Fork and clone this repo using `https://github.com/Xillioneur/pholio.git`**
 
 ### 2. Code
 
@@ -159,7 +144,7 @@ npm run cypress:open
 
 ### 3. Submit pull request
 
-- **Create a new pull request using `https://github.com/Xillioneur/reactable/compare`.**
+- **Create a new pull request using `https://github.com/Xillioneur/pholio/compare`.**
 
 ---
 
@@ -177,4 +162,4 @@ Reach out to me at one of the following places!
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2019 © <a href="#" target="_blank">reactable</a>.
+- Copyright 2019 © <a href="#" target="_blank">Pholio</a>.
