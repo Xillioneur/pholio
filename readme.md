@@ -1,4 +1,4 @@
-<a href="https://reactable.unii.design" target="_blank"><img src="#" height="200" alt="logo"></a>
+<a href="https://reactable.unii.design" target="_blank"><img src="https://github.com/Xillioneur/pholio/blob/assets/wjdev-logo.png" height="200" alt="logo"></a>
 
 # Pholio
 
@@ -6,7 +6,7 @@
 
 > Full-stack developer, designer, indie
 
-[![Pholio](https://dummyimage.com/600x300/000000/550055.png&text=Pholio)]()
+[![Pholio](https://dummyimage.com/600x300/ffffff/ff0000.png&text=Pholio)]()
 
 ## Features
 
