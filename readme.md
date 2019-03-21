@@ -1,4 +1,4 @@
-<a href="https://reactable.unii.design" target="_blank"><img src="https://github.com/Xillioneur/pholio/blob/assets/wjdev-logo.png" height="200" alt="logo"></a>
+<a href="https://me.unii.design" target="_blank"><img src="https://github.com/Xillioneur/pholio/blob/assets/wjdev-logo.png" height="200" alt="logo"></a>
 
 # Pholio
 
