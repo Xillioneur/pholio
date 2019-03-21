@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "<a href=\"https://reactable.unii.design\" target=\"_blank\"><img src=\"https://github.com/Xillioneur/reactable/blob/master/src/images/logo.svg\" height=\"200\" alt=\"logo\"></a>",
   "scripts": {
-    "frontend": "cd frontend && npm run dev",
-    "backend": "cd backend && npm run dev",
+    "frontend": "npm run dev --prefix frontend",
+    "backend": "npm run dev --prefix backend",
     "dev": "concurrently --kill-others-on-fail \"npm run backend\" \"npm run frontend\""
   },
   "repository": {
